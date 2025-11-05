@@ -16,7 +16,7 @@ form.addEventListener("submit", async (e) => {
 
   try {
     // ✅ Webhook ACTIVADO (sin -test)
-    const resp = await fetch("https://daniel112003.app.n8n.cloud/webhook/4866e093-f879-4557-b0e1-90657fa0e3ba", {
+    const resp = await fetch("https://daniel112003.app.n8n.cloud/webhook/operacion", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ texto })
